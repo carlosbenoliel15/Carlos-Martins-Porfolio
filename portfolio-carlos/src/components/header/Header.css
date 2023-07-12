@@ -93,3 +93,30 @@
     font-weight: 400;
     font-size: 1.2rem;
 }
+
+
+h5{
+    font-size: 1.5rem;
+    color: #94a3b8ea;
+}
+
+h1{
+    color:#e2e8f0d6;
+
+}
+
+@media screen and (max-width: 1024){
+    header{
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 691px){
+    header{
+        height: 100vh;
+    }
+
+    .header__socials,.scrool__down{
+        display: none;
+    }
+}
