@@ -120,3 +120,14 @@ h1{
         display: none;
     }
 }
+
+
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+  
+
+  .wrap {
+    color:rgb(66, 227, 203) ;
+  }
+  
