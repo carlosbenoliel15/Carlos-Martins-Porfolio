@@ -18,7 +18,7 @@ const Header = () => {
   const period = 2000;
 
   const tick = useCallback(() => {
-    const toRotate = ["Web Developer", "FullStack Developer", "UI/UX Designer"];
+    const toRotate = ["Junior Web Developer", " Junior FullStack Developer", " Senior CS Stundent"];
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
     let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
@@ -51,13 +51,13 @@ const Header = () => {
  
   return (
     <header>
-      <div className="container header__container">
+      <div id ="header" className="container header__container">
           <h5>Welcome to  my Portfolio</h5>
           <h1>My  name is Carlos Martins</h1>
-          <h5>{`and I'm a Junior `}<span className="txt-rotate"><span className="wrap">{text}</span></span></h5>
+          <h5>{`and I'm a `}<span className="txt-rotate"><span className="wrap">{text}</span></span></h5>
           <CTA/>
           <HeaderSocials/>
-          <a href="#contact" className='scrool__down'> Scrool Down</a>
+          <a href="#skills" className='scrool__down'> Scrool Down</a>
           <div className="me">
             <img src={Me} alt="foto de perfil" />
           </div>

@@ -11,11 +11,11 @@ import {RiServiceLine} from 'react-icons/ri'
 const NavBar = () => {
   return (
     <nav>
-      <a href="#" target='_blank'><AiOutlineHome/></a>
-      <a href="#" target='_blank'><AiOutlineUser/></a>
-      <a href="#" target='_blank'><BiMessageAltCheck/></a>
-      <a href="#" target='_blank'><RiServiceLine/></a>
-      <a href="#" target='_blank'><BiMessageAltDetail/></a>
+      <a href="#header" ><AiOutlineHome/></a>
+      <a href="#about" ><AiOutlineUser/></a>
+      <a href="#skills" ><BiMessageAltCheck/></a>
+      <a href="#" ><RiServiceLine/></a>
+      <a href="#"><BiMessageAltDetail/></a>
     </nav>
   )
 }
