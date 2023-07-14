@@ -4,16 +4,16 @@
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 90px;
-    padding-bottom: 70px;
+   padding-top: 40px;
+  
     flex-direction: column;
-    overflow: none;
+
 
 }
 .content-section{
     display:flex;
     flex-wrap: nowrap;
-    overflow: none;
+  
 }
 .skil__container{
     width: 500px;
@@ -134,33 +134,27 @@
 }
 
 
-@media screen  and (max-width: 990px){
-    .container__SkillSBar{
-        flex-direction: column;
-        padding-top: 150px;
-        align-items: center;
-    }
-    .skill-box .title{
-        display: block;
-        font-size: 14px;
-        font-weight: 600;
-        color: #fcf1f1;
-    }
-    
-    
-}
-
-
-@media screen  and (max-width: 390px){
-    .container__SkillSBar{
-        flex-direction: column;
-        padding-top: 150px;
-        align-items: center;
-    }
-}
 
 .level{
     color: #94a3b8ea;
     font-size:14px;
     margin-left:5px;
+}
+
+@media screen and (max-width: 1024px){
+.content-section{
+    flex-direction: column
+}
+.skil__container{
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 600px){
+
+
 }
