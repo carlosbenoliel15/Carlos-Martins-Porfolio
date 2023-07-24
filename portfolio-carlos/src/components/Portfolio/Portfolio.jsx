@@ -39,11 +39,12 @@ const Portfolio = () => {
               </a>
               <a href={item.liveDemoLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                 Live Demo
-              </a>
+              </a> 
             </div>
           </article>
         ))}
       </div>
+
     </section>
   );
 };
