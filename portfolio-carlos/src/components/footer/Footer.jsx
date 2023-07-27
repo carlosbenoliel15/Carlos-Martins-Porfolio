@@ -1,10 +1,13 @@
 import React from 'react'
 import './footer.css'
+import {BsInstagram} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
+import {BsTwitter} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer>
-      <ul className='permalinks'>
+    <footer id='footer'>
+      <ul className='permalinks' >
           <li><a href="">Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="">SkillSet</a></li>
@@ -13,9 +16,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="">Instagram</a>
-        <a href="">Linkedin</a>
-        <a href="">Twitter</a>
+        <a href="#"><BsInstagram/></a>
+        <a href="#"><BsLinkedin/></a>
+        <a href="#"><BsTwitter/></a>
       </div>
 
       <div className="footer__copyright">

@@ -57,7 +57,7 @@ const Header = () => {
           <h5>{`and I'm a `}<span className="txt-rotate"><span className="wrap">{text}</span></span></h5>
           <CTA/>
           <HeaderSocials/>
-          <a href="#skills" className='scrool__down'> Scrool Down</a>
+          <a href="#footer" className='scrool__down'> Scrool Down</a>
           <div className="me">
             <img src={Me} alt="foto de perfil" />
           </div>

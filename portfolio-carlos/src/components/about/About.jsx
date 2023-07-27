@@ -22,7 +22,7 @@ const About = () => {
                 absorbing knowledge and refining my skills to become a proficient FullStack developer.
                 </p>
 
-                <a href='#contacts' className='btn btn-primary'>Let's Talk</a>
+                <a href='#contact' className='btn btn-primary'>Let's Talk</a>
             </div>
         </div>
     
