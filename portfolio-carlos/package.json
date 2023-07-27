@@ -1,7 +1,6 @@
 {
   "name": "portfolio-carlos",
   "version": "0.1.0",
-  "homepage": "https://github.com/carlosbenoliel15/Carlos-Martins-Porfolio.git",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
