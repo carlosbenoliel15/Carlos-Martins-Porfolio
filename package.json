@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "react-bootstrap": "^2.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5"
   }
 }
